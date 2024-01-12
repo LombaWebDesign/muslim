@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muslim United</title>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="tracking-wider">
+
+    <!-- Nav -->
+    <nav class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between">
+            <div class="brand">
+                <h1 class="text-2xl font-bold text-white">Muslim United</h1>
+            </div>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#" class="text-white hover:text-yellow-500">Salat Schedule</a>
+                <a href="#" class="text-white hover:text-yellow-500">Donation</a>
+                <a href="#" class="text-white hover:text-yellow-500">Learning</a>
+                <a href="#" class="px-6 py-2 rounded-full text-white bg-yellow hover:opacity-85">Get Started</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav -->
+
+
+    <!-- Header -->
+    <header class="min-h-screen bg-cover bg-no-repeat -mt-[90px]"
+        style="background-image: url(./assets/img/bg-hero.jpg);">
+        <div class="container px-4 mx-auto flex flex-col min-h-screen justify-center pt-36">
+            <div class="lg:w-5/6 mx-auto text-center space-y-11">
+                <h1 class="text-3xl sm:text-5xl lg:text-7xl md:text-6xl font-semibold text-white leading-tight">Learn
+                    About Qur'an
+                    and Let's
+                    Support
+                    Chairity
+                    Together.</h1>
+                <p class="text-sm sm:text-base md:text-xl text-white lg:w-5/6 mx-auto">Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Pariatur distinctio numquam voluptates eius labore mollitia maxime
+                    sint accusamus amet odio,</p>
+
+                <a href="#"
+                    class="px-20 py-3 font-semibold rounded-full text-white inline-block bg-yellow hover:opacity-85">Get
+                    Started</a>
+            </div>
+            <div
+                class="relative w-72 h-20 sm:w-[450px] sm:h-24 md:w-[500px] md:h-28 lg:w-[600px] lg:h-32 mx-auto bg-lightGray rounded-full bg-opacity-50 mt-11 md:mt-28">
+                <div class="absolute -top-6 sm:-top-9 lg:-top-16 -left-10">
+                    <img src="./assets/img/women.png" alt="Women" class="w-20 sm:w-28 lg:w-auto">
+                </div>
+                <div class="flex flex-col space-y-2 items-center justify-center h-full">
+                    <span class="text-white text-sm sm:text-xl md:text-xl lg:text-2xl font-medium">Total
+                        Donation</span>
+                    <span id="counter" class="font-bold text-xl md:text-3xl lg:text-4xl text-white">0
+                        IDR</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+
+
+    <!-- section jadwal solat -->
+    <section id="jadwal" class="bg-gradient-to-b from-[#C375EF]  to-[#AD6CFA] via-[#AB6BFB]  min-h-[700px] py-20">
+        <div class="container px-4 py-10 mx-auto bg-lightpurple rounded-[30px] bg-opacity-50">
+            <div class="flex flex-col space-y-11">
+                <div id="clockContainer" class="relative m-auto w-80 h-80 bg-no-repeat z-50"
+                    style="background-image: url('./assets/img/clockk.png'); background-size: 100%;">
+                    <div id="hour"
+                        class="absolute bg-black rounded-xl origin-bottom w-[1.8%] h-[23%] top-[27%] left-[48.6%] opacity-80">
+                    </div>
+                    <div id="minute"
+                        class="absolute bg-black rounded-xl origin-bottom w-[1.6%] h-[30%] top-[19%] left-[48.9%] opacity-80">
+                    </div>
+                    <div id="second"
+                        class="absolute bg-black rounded-xl origin-bottom w-[1%] h-[40%] top-[9%] left-[49.25%] opacity-80">
+                    </div>
+                    <img src="./assets/img/clockk.png" class="absolute left-0 w-36">
+                    <img src="./assets/img/clockk.png" class="absolute right-0 w-36">
+                    <div class="border-2 border-solid border-black absolute bottom-12 w-28 right-[108px]"></div>
+                </div>
+                <div class="text-center">
+
+                    <h3 class="text-xl font-medium text-slate-800"><i
+                            class="fa-solid fa-location-dot text-purple3 text-2xl"></i>
+                        Bogor,
+                        Jawa Barat, Indonesia</h3>
+                </div>
+
+                <table class="mx-auto w-3/4 rounded-[20px] bg-white text-center">
+                    <thead>
+                        <tr class="bg-purple3 bg-opacity-20">
+                            <th class="text-darkpurple p-2">Salat</th>
+                            <th class="text-darkpurple">Adzan</th>
+                            <th class="text-darkpurple">Iqamah</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-darkgrey font-medium  p-2">Subuh</td>
+                            <td class="text-darkgrey font-medium  p-2">04.22</td>
+                            <td class="text-darkgrey font-medium  p-2">05.00</td>
+                        </tr>
+                        <tr class="bg-purple3 bg-opacity-20">
+                            <td class="text-darkgrey font-medium  p-2">Subuh</td>
+                            <td class="text-darkgrey font-medium  p-2">04.22</td>
+                            <td class="text-darkgrey font-medium  p-2">05.00</td>
+                        </tr>
+                        <tr>
+                            <td class="text-darkgrey font-medium  p-2">Subuh</td>
+                            <td class="text-darkgrey font-medium  p-2">04.22</td>
+                            <td class="text-darkgrey font-medium  p-2">05.00</td>
+                        </tr>
+                        <tr class="bg-yellow bg-opacity-40">
+                            <td class="text-darkgrey font-medium  p-2">Subuh</td>
+                            <td class="text-darkgrey font-medium  p-2">04.22</td>
+                            <td class="text-darkgrey font-medium  p-2">05.00</td>
+                        </tr>
+                        <tr>
+                            <td class="text-darkgrey font-medium  p-2">Subuh</td>
+                            <td class="text-darkgrey font-medium  p-2">04.22</td>
+                            <td class="text-darkgrey font-medium  p-2">05.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- end section jadwal solat -->
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
